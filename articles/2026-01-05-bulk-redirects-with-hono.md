@@ -9,7 +9,7 @@ topics:
         - 'google'
         - 'typescript'
 published: true
-published_at: '2026-01-05 23:59'
+published_at: '2026-01-05 17:00'
 ---
 
 # Bulk Redirects with Hono
