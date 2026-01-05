@@ -16,7 +16,7 @@ published_at: '2025-01-05 23:59'
 
 ドメイン移行時に Google Search Console の 301 リダイレクト検証エラーが発生していたので、Cloudflare Bulk Redirects のかわりに Cloudflare Workers 上に Hono ベースリダイレクトを実装しました。
 
-https://tsei.jp/articles/2024/12/15/note/
+https://tsei.jp/articles/2026/01/05/note/
 
 ↑english ver
 
