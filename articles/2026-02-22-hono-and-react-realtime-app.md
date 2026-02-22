@@ -151,13 +151,13 @@ https://github.com/tseijp/voxelizer/pull/18/changes
 
 Google OAuth を使った認証基盤を構築します。
 
-[1](https://r.tsei.jp/note/2026-02-20/1.jpg)
-[2](https://r.tsei.jp/note/2026-02-20/2.jpg)
-[3](https://r.tsei.jp/note/2026-02-20/3.jpg)
-[4](https://r.tsei.jp/note/2026-02-20/4.jpg)
-[5](https://r.tsei.jp/note/2026-02-20/5.jpg)
-[6](https://r.tsei.jp/note/2026-02-20/6.jpg)
-[7](https://r.tsei.jp/note/2026-02-20/7.jpg)
+![1](https://r.tsei.jp/note/2026-02-20/1.jpg)
+![2](https://r.tsei.jp/note/2026-02-20/2.jpg)
+![3](https://r.tsei.jp/note/2026-02-20/3.jpg)
+![4](https://r.tsei.jp/note/2026-02-20/4.jpg)
+![5](https://r.tsei.jp/note/2026-02-20/5.jpg)
+![6](https://r.tsei.jp/note/2026-02-20/6.jpg)
+![7](https://r.tsei.jp/note/2026-02-20/7.jpg)
 
 1. [Google Cloud コンソールの新しいプロジェクト](https://console.cloud.google.com/projectcreate) の作成ボタンを押します
 2. "Google Auth Platform Clients" で検索して、でてきた "Clients" ページを開きます
@@ -512,9 +512,9 @@ createRoot(document.getElementById('root')!).render(<App />)
 
 [navigator.glre.dev](https://navigator.glre.dev)
 
-[![](https://r.tsei.jp/note/2026-02-20/20260212.gif =256x)](https://navigator.glre.dev)
-[![](https://r.tsei.jp/note/2026-02-20/20260213.gif =256x)](https://navigator.glre.dev)
-[![](https://r.tsei.jp/note/2026-02-20/0.jpg =512x)](https://www.youtube.com/live/7pkahO9tWFw)
+[![](https://r.tsei.jp/note/2026-02-20/20260212.gif)](https://navigator.glre.dev)
+[![](https://r.tsei.jp/note/2026-02-20/20260213.gif)](https://navigator.glre.dev)
+[![](https://r.tsei.jp/note/2026-02-20/0.jpg)](https://www.youtube.com/live/7pkahO9tWFw)
 
 > - service: [navigator.glre.dev](https://navigator.glre.dev)
 > - require: [navigator.glre.dev/claude/ja](https://navigator.glre.dev/claude/ja)
