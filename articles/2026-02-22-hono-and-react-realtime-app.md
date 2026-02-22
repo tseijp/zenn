@@ -515,8 +515,8 @@ createRoot(document.getElementById('root')!).render(<App />)
 navigator.glre.dev
 ![](https://r.tsei.jp/note/2026-02-20/20260212.gif =512x)
 ![](https://r.tsei.jp/note/2026-02-20/20260213.gif =512x)
-![](https://r.tsei.jp/note/2026-02-20/0.jpg =512x)
 ](https://navigator.glre.dev)
+[![](https://r.tsei.jp/note/2026-02-20/0.jpg =512x)](https://www.youtube.com/live/7pkahO9tWFw)
 
 > - service: [navigator.glre.dev](https://navigator.glre.dev)
 > - require: [navigator.glre.dev/claude/ja](https://navigator.glre.dev/claude/ja)
