@@ -478,6 +478,7 @@ import { usePartySocket } from 'partysocket/react'
 import { useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import useSWRImmutable from 'swr/immutable'
+
 const Cursors = () => {
   const [users, set] = useState<[username: string, transform: string][]>([])
   const socket = usePartySocket({
