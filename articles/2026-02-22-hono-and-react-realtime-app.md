@@ -121,8 +121,8 @@ npm i -D @auth/core @auth/drizzle-adapter @hono/auth-js @tailwindcss/vite @types
 "src/style.css・src/client.tsx・index.html" の 3 ファイルをいつも通り作成します。
 
 1. ```tsx
-    /* src/style.css */
-    @import 'tailwindcss';
+   /* src/style.css */
+   @import 'tailwindcss';
    ```
 2. ```tsx
    // src/client.tsx
@@ -282,7 +282,7 @@ Auth.js と Drizzle ORM の公式ドキュメントのコードをそのまま�
 
 :::message
 
-- 公式ドキュメントの複合主キーの書き方が古いので、"sqliteTable" の第 3 引数はオブジェクトではなく配列を返すように修正してください。でないと以下の deprecation warning が発生します。
+- 公式ドキュメントの複合主キーの書き方が古いので、"sqliteTable" の第 3 引数はオブジェクトではなく配列を返すように修正してください。（修正 [PR](https://github.com/honojs/website/pull/822) をだしています、、、）でないと以下の deprecation warning が発生します。
      > ```json
      > The signature '(name: "account", columns: { userId: NotNull<SQLiteTextBuilderInitial<"userId", [string, ...string[]], number | undefined>>; type: NotNull<$Type<SQLiteTextBuilderInitial<"type", [...], number | undefined>, AdapterAccountType>>; ... 8 more ...; session_state: SQLiteTextBuilderInitial<...>; }, extraConfig?: ((self: { ...; }) => SQLiteTableExtraConfig) | undefined): SQLiteTableWithColumns<...>' of 'sqliteTable' is deprecated.
      > ```
@@ -488,7 +488,7 @@ const Cursors = () => {
     onMessage: (e) => set(Object.entries(JSON.parse(e.data))),
   })
   return users.map(([username, transform]) => (
-    <div key={username} className="absolute" style={{ transform }}>
+    <div key={username} className="absolute text-8xl" style={{ transform }}>
       {username}
     </div>
   ))
@@ -506,6 +506,12 @@ const App = () => {
 createRoot(document.getElementById('root')!).render(<App />)
 ```
 
+[localhost](http://localhost:5173/) を開くと以下のようなかんじになります！
+
+[
+![20260223.gif](https://r.tsei.jp/note/2026-02-20/20260223.gif =512x)
+](http://localhost:5173/)
+
 ### 3.3. reatitime game
 
 先週、国土交通省 project の PLATEAU AWARD にてイノベーション賞をいただきました 🎉
@@ -513,8 +519,8 @@ createRoot(document.getElementById('root')!).render(<App />)
 
 [
 navigator.glre.dev
-![](https://r.tsei.jp/note/2026-02-20/20260212.gif =512x)
-![](https://r.tsei.jp/note/2026-02-20/20260213.gif =512x)
+![20260212.gif](https://r.tsei.jp/note/2026-02-20/20260212.gif =512x)
+![20260213.gif](https://r.tsei.jp/note/2026-02-20/20260213.gif =512x)
 ](https://navigator.glre.dev)
 [![](https://r.tsei.jp/note/2026-02-20/0.jpg =512x)](https://www.youtube.com/live/7pkahO9tWFw)
 
