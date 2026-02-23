@@ -551,5 +551,5 @@ npx wrangler d1 delete my-d1-xxx
 npx wrangler r2 bucket delete my-r2-xxx
 
 # Worker の削除（Durable Objects も同時に削除されます）
-npx wrangler delete party
+npx wrangler delete app
 ```
