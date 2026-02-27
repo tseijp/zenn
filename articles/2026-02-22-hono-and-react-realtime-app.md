@@ -282,7 +282,7 @@ Auth.js と Drizzle ORM の公式ドキュメントのコードをそのまま�
 
 :::message
 
-- 公式ドキュメントの複合主キーの書き方が古いので、"sqliteTable" の第 3 引数はオブジェクトではなく配列を返すように修正してください。（修正 [PR](https://github.com/honojs/website/pull/822) をだしています、、、）でないと以下の deprecation warning が発生します。
+- 公式ドキュメントの複合主キーの書き方が古いので、"sqliteTable" の第 3 引数はオブジェクトではなく配列を返すように修正してください。でないと以下の deprecation warning が発生します。
      > ```json
      > The signature '(name: "account", columns: { userId: NotNull<SQLiteTextBuilderInitial<"userId", [string, ...string[]], number | undefined>>; type: NotNull<$Type<SQLiteTextBuilderInitial<"type", [...], number | undefined>, AdapterAccountType>>; ... 8 more ...; session_state: SQLiteTextBuilderInitial<...>; }, extraConfig?: ((self: { ...; }) => SQLiteTableExtraConfig) | undefined): SQLiteTableWithColumns<...>' of 'sqliteTable' is deprecated.
      > ```
